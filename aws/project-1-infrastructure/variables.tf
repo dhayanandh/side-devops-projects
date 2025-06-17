@@ -3,7 +3,11 @@
 variable "aws_region" {
   description = "AWS region to deploy resources"
   type        = string
+<<<<<<< HEAD
   default     = "eu-north-1"
+=======
+  default     = "us-east-1"
+>>>>>>> bcd195209e9ba58539504d970ea75165fc8483ee
 }
 
 variable "cluster_name" {
